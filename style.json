@@ -45,10 +45,6 @@
     "composite": {
       "url": "https://s3-eu-west-1.amazonaws.com/tiles.os.uk/data/vector/open-zoomstack/config.json",
       "type": "vector"
-    },
-    "esri": {
-      "type":"vector",
-      "tiles": ["https://tiles.arcgis.com/tiles/rHA8m6scfzPRSIkc/arcgis/rest/services/cos_parcels_vector_tiles_z13_web_mercator/VectorTileServer/tile/{z}/{y}/{x}.pbf"]
     }
   },
   "sprite": "https://s3-eu-west-1.amazonaws.com/tiles.os.uk/styles/open-zoomstack-road/sprites",
@@ -3236,16 +3232,6 @@
         "text-halo-blur": 1,
         "text-color": "#000000",
         "text-opacity": 0.3
-      }
-    },
-    {
-      'id':'walk',
-      'type':'line',
-      'source':'esri',
-      'source-layer':'cos_parcels_sample_web_mercator',
-      'paint': {
-        'line-color':'red',
-        'line-opacity':1
       }
     }
   ],
