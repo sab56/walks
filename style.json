@@ -3239,13 +3239,13 @@
       }
     },
     {
-      'id':'walk',
-      'type':'line',
-      'source':'esri',
-      'source-layer':'Track_WGS',
-      'paint': {
-        'line-color':'red',
-        'line-opacity':1
+      "id":"walk",
+      "type":"line",
+      "source":"esri",
+      "source-layer":"Track_WGS",
+      "paint": {
+        "line-color":"red",
+        "line-opacity":1
       }
     }
   ],
