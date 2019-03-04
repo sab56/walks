@@ -3246,27 +3246,6 @@
       "paint": {
         "line-color":"red",
         "line-opacity":1
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          5,
-          0.35,
-          10,
-          1.75,
-          14,
-          2.5,
-          15,
-          4.5,
-          17,
-          8.5,
-          22,
-          66
-        ]
       }
     },
     {
@@ -3277,27 +3256,6 @@
       "paint": {
         "line-color":"red",
         "line-opacity":1
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          5,
-          0.35,
-          10,
-          1.75,
-          14,
-          2.5,
-          15,
-          4.5,
-          17,
-          8.5,
-          22,
-          66
-        ]
       }
     },
     {
@@ -3308,27 +3266,6 @@
       "paint": {
         "line-color":"red",
         "line-opacity":1
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          5,
-          0.35,
-          10,
-          1.75,
-          14,
-          2.5,
-          15,
-          4.5,
-          17,
-          8.5,
-          22,
-          66
-        ]
       }
     }
   ],
