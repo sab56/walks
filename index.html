@@ -31,11 +31,11 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'https://sab56.github.io/walks/style.json',
         maxZoom: 16,
-        bearing: 0,
+        bearing: -20.0,
         center: [-3.276136, 54.831588],
         zoom: 6,
         speed: 0.5,
-        pitch: 0
+        pitch: 45.0
     });
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
