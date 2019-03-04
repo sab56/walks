@@ -48,7 +48,7 @@
     },
     "esri": {
       "type":"vector",
-      "tiles": ["https://tiles.arcgis.com/tiles/TPPFfEsodzMkaujy/arcgis/rest/services/iowcoastalpath/VectorTileServer/tile/{z}/{y}/{x}.pbf"]
+      "tiles": ["https://tiles.arcgis.com/tiles/TPPFfEsodzMkaujy/arcgis/rest/services/England_Coast_Path/VectorTileServer/tile/{z}/{y}/{x}.pbf"]
     }
   },
   "sprite": "https://s3-eu-west-1.amazonaws.com/tiles.os.uk/styles/open-zoomstack-road/sprites",
@@ -3239,10 +3239,30 @@
       }
     },
     {
-      "id":"walk",
+      "id":"england coast path",
       "type":"line",
       "source":"esri",
-      "source-layer":"Track_WGS",
+      "source-layer":"England_Coast_Path",
+      "paint": {
+        "line-color":"red",
+        "line-opacity":1
+      }
+    },
+    {
+      "id":"iow coast path",
+      "type":"line",
+      "source":"esri",
+      "source-layer":"IOW_Coast_Path",
+      "paint": {
+        "line-color":"red",
+        "line-opacity":1
+      }
+    },
+    {
+      "id":"sw coast path",
+      "type":"line",
+      "source":"esri",
+      "source-layer":"SW_Coast_Path",
       "paint": {
         "line-color":"red",
         "line-opacity":1
