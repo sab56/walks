@@ -37,6 +37,8 @@ var map = new mapboxgl.Map({
         speed: 0.5,
         pitch: 0
     });
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl());
 </script>
 </body>
 </html>
