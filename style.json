@@ -3245,7 +3245,7 @@
       "source-layer":"England_Coast_Path",
       "paint": {
         "line-color":"red",
-        "line-opacity":1
+        "line-opacity":2
       }
     },
     {
@@ -3255,7 +3255,7 @@
       "source-layer":"IOW_Coast_Path",
       "paint": {
         "line-color":"red",
-        "line-opacity":1
+        "line-opacity":2
       }
     },
     {
@@ -3265,7 +3265,7 @@
       "source-layer":"SW_Coast_Path",
       "paint": {
         "line-color":"red",
-        "line-opacity":1
+        "line-opacity":2
       }
     }
   ],
